@@ -8,27 +8,29 @@ from time import sleep, time
 from gpiozero import PWMLED, Button
 import threading
 #MUSIC BOX (VERSION 1.0)
-#set current working directory. So that pi can see the music files
-#Test for git
+
+#sets current working directory. So that pi can see the music files
 script_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(script_dir)
 
 
-# Constants
+# Pin numbers for Buttons and LEDs
 BUTTON_PIN1 = 21
 LED_PIN1 = 26
-DEBOUNCE_TIME = 0.5
 
 BUTTON_PIN2 = 20
 LED_PIN2 = 16
-testForGit=0
+
 # GPIO Setup
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(LED_PIN1, GPIO.OUT)
+
 button2 = Button(BUTTON_PIN2)
 led2 = PWMLED(LED_PIN2)
 button1 = Button(BUTTON_PIN1)
 led1 = PWMLED(LED_PIN1)
+
+DEBOUNCE_TIME = 0.5 #Button debounce time
 
 status1 = True #Pause Status
 status2 = True #Playlist Status
@@ -109,7 +111,7 @@ def rfid_thread():
 # Initialize Pygame
 pygame.init()
 
-# Define the paths to your mp3 files
+# Define the paths to mp3 files
 MP3_FILE_MAPPING = {
     902705803771: "Lonely.mp3",
     286596035069: "LastOfUs.mp3",
