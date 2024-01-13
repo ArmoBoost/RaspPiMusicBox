@@ -1,0 +1,7 @@
+#Ignore all files
+*
+
+#Except for these
+!musicBox.py
+!.gitignore
+!Belle.mp3
