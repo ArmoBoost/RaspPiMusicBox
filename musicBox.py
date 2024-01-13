@@ -9,6 +9,7 @@ from gpiozero import PWMLED, Button
 import threading
 #MUSIC BOX (VERSION 1.0)
 #set current working directory. So that pi can see the music files
+#Test for git
 script_dir = os.path.dirname(os.path.realpath(__file__))
 os.chdir(script_dir)
 
