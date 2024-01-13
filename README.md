@@ -1,11 +1,11 @@
 # RaspPi MusicBox
-This is my first project using a RaspPi4. So I decided to make a music box that uses RFID stickers to play music. This is heavily inspired by [talaexe](https://talaexe.com/moderndayrecordplayer). I highly recommend checking her website where she makes the same thing but by connecting the Pi to Spotify API instead of using local MP3 files. Follow her steps up to the point where she starts integrating the Spotify API, the rest you can find here. 
+This is my first project using a RaspPi4. So I decided to make a music box that uses RFID stickers to play music. This is heavily inspired by [talaexe](https://talaexe.com/moderndayrecordplayer). I highly recommend checking her website where she does the same thing but by connecting the Pi to Spotify API instead of using local MP3 files. Follow her steps up to the point where she starts integrating the Spotify API, the rest you can find here. 
 
   __DISCLAIMER__  
-This is also my first time working on a project with Python and a Linux-based OS. I highly recommend using my project as inspiration rather than a tutorial. 
+Please keep in mind, this is my first time working on a project with Python and a Unix-based OS. I highly recommend using my project as inspiration rather than a tutorial. 
 
 ## Installation Parts
-1. Raspberry Pi4 and all the essentials (power cable, microsd, etc...)
+1. Raspberry Pi4 and all the essentials (power cable, MicroSD, etc...)
 2. RFID Scanner
 3. RFID Stickers
 4. Buttons (Push ones, nothing that switches or stays down when pressed)
@@ -57,3 +57,4 @@ So you should have 'load-module module-native-protocol-unix auth-anonymous=1' as
 
 ## Your Ready To Play Music!
 Thats it! Now you can play music using RFID stickers. Get creative and put the components into something so that it looks nicer. I hope this little project was helpful!
+Pictures of my set up coming soon!
