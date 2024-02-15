@@ -2,7 +2,7 @@
 This is my first project using a RaspPi4. So I decided to make a music box that uses RFID stickers to play music. This is heavily inspired by [talaexe](https://talaexe.com/moderndayrecordplayer). I highly recommend checking her website where she does the same thing but by connecting the Pi to Spotify API instead of using local MP3 files. Follow her steps up to the point where she starts integrating the Spotify API, the rest you can find here. 
 
   __DISCLAIMER__  
-Please keep in mind, this is my first time working on a project with Python and a Unix-based OS. I highly recommend using my project as inspiration rather than a tutorial. 
+Please keep in mind, this is my first time working on a project with Python and a Unix-based OS. 
 
 ## Installation Parts
 1. Raspberry Pi4 and all the essentials (power cable, MicroSD, etc...)
@@ -16,7 +16,7 @@ Please keep in mind, this is my first time working on a project with Python and 
 9. Something to store everything in (Wooden Box for example)
 
 ## Pi Setup
-After following [talaexe's](https://talaexe.com/moderndayrecordplayer) steps, you might find yourself in an issue with pip3. Use the following but be warned, this might break your system. See...I told you not to follow this tutorial...
+After following [talaexe's](https://talaexe.com/moderndayrecordplayer) steps, you might find yourself in an issue with pip3. Use the following but be warned, this might break your system if you don't know what you're doing. 
 ```bash
 sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 ```
